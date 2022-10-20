@@ -17,21 +17,29 @@
             background-color: bisque;
         }
 
-        h1 {
+        h1,
+        h4 {
             color: teal;
-        }
-
-        h2 {
-            color: cadetblue;
+            font-style: inherit;
         }
 
         li {
-            width: 100%
+            font-style: italic;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+        span {
+            background-color: darksalmon;
+            color: firebrick;
+            font-style: oblique;
         }
 
         #parrafo1 {
             display: inline-block;
-            height: 90px;
+            height: auto;
             width: 50%;
             background-color: BurlyWood;
             border-style: solid;
@@ -39,7 +47,7 @@
 
         #parrafo2 {
             display: inline-block;
-            height: 70px;
+            height: auto;
             width: 50%;
             background-color: BurlyWood;
             border-style: solid;
@@ -47,8 +55,16 @@
 
         #parrafo3 {
             display: inline-block;
-            height: 220px;
+            height: auto;
             width: 50%;
+            background-color: BurlyWood;
+            border-style: solid;
+        }
+
+        #contacto {
+            float: right;
+            height: auto;
+            width: 25%;
             background-color: BurlyWood;
             border-style: solid;
         }
@@ -58,37 +74,43 @@
 
 <body>
     <h1>Álvaro Ramírez García</h1>
+    <h4>Fecha de Nacimiento: 25 de Junio de 2003</h4>
 
     <p> Hola, soy Álvaro, tengo 19 años y soy de Málaga. <br />
         Me gusta la informática desde que era pequeño, y siempre soñé con aprender a programar.<br />
         Ahora estoy en CENEC aprendiendo lo que siempre me había gustado.</p>
+    <br />
 
-    <span id="parrafo1">
-        <h2><mark>Educación</mark></h2>
-        <li>Educación Secundaria Obligatoria (ESO) en el instituto Cardenal Herrera Oria (2020)</li>
+    <div id="contacto">
+        <h3><span>Contacto</span></h3>
+        <li>Teléfono Móvil: 663418589</li>
+        <li>Correo: alvramigar@gmail.com</li>
+    </div>
+    <div id="parrafo1">
+        <h2><span>Educación</span></h2>
+        <li>Educación Secundaria Obligatoria (ESO) en el instituto <mark>Cardenal Herrera Oria</mark> (2020)</li>
         <li>Grado Medio de Sistemas Microinformáticos y Redes en el instituto Cánovas del Castillo (2022)</li>
-    </span>
+    </div>
 
-    <span id="parrafo2">
-        <h2><mark>Experiencia Laboral</mark></h2>
-        <li>Prácticas en la empresa ECOPORTATIL, me enseñaron mucho del mundo laboral. (2022)</li>
-    </span>
+    <div id="parrafo2">
+        <h2><span>Experiencia Laboral</span></h2>
+        <li>Prácticas en la empresa <mark>ECOPORTATIL</mark>, me enseñaron mucho del mundo laboral. (2022)</li>
+    </div>
 
-    <span id="parrafo3">
-        <h2><mark>Mis habilidades</mark></h2>
+    <div id="parrafo3">
+        <h2><span>Mis habilidades</span></h2>
 
         <li>Se me da bien montaje y desmontaje de equipos informáticos, <br />
             ya que mi experiencia en el grado y las practicas me han servido para desarrollar esta rama de mi.</li>
         <br />
-        <li>Tambien tengo conocimientos en cableado de redes,<br />
-            aunque no lo he podido desarrollar todo lo que he querido.</li>
+        <li>Tambien tengo conocimientos en cableado de redes, aunque no lo he podido desarrollar todo lo que he querido.
+        </li>
         <br />
         <li>Tengo experiencia de bases de datos ya que en el grado tuve una asignatura enteramente para bases de
             datos. Sobretodo el entorno de Acces de Office, tengo varios trabajos con esta aplicación que estan muy bien
             desarrollados.</li>
 
-    </span>
-
+    </div>
 </body>
 
 </html>

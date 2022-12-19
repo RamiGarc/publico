@@ -1,0 +1,29 @@
+* {
+    padding: 0%;
+    margin: 0.5%;
+    color: black;
+}
+
+body {
+    background-color: bisque;
+}
+
+h2 {
+    color: rgb(12, 78, 78);
+    font-style: inherit;
+    text-align: center;
+}
+
+#miNombre,
+h1 {
+    color: teal;
+    font-style: inherit;
+    text-align: center;
+}
+
+ol {
+    font-style: italic;
+    font-size: large;
+    padding: 0%;
+    margin-left: 0.5%;
+}

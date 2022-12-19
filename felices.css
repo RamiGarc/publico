@@ -42,19 +42,24 @@ div {
 }
 
 p {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     text-align: center;
     transition: all 1.5s ease;
     -webkit-transition: all 1.5s ease;
     background-color: transparent;
-    color: red;
+    color: green;
     text-shadow: 1px 1px goldenrod;
     font-size: calc(1.2em + 1vw + 1vh);
     font-weight: bold;
     z-index: 2;
 }
 
-p:nth-child(3) {
-    color: green;
+p:nth-child(1) {
+    color: red;
     font-style: italic;
 }
 

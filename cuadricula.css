@@ -31,8 +31,27 @@ div {
     color: white;
     width: 15vw;
     height: 15vh;
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#c1 {
+    background-color: brown;
+}
+
+#c2 {
+    background-color: rebeccapurple;
+}
+
+#c3 {
+    background-color: greenyellow;
+}
+
+#c4 {
+    background-color: forestgreen;
+}
+
+#c5 {
+    background-color: lightpink;
 }

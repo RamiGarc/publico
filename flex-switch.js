@@ -4,8 +4,6 @@
 //pedimos el numero donde quiera decir HOLA
 var cuadro = prompt("Diga en que cuadro quiere su pirámide (1-5)", "");
 cuadro = parseInt(cuadro);
-var color = prompt("¿De que color quieres la pirámide?")
-color = parseInt(color);
 //cuadro sera ahora una variable numerica supuestamente entre 1 y 5
 var estecuadro;
 switch (cuadro) {
@@ -30,12 +28,4 @@ switch (cuadro) {
 }
 if (estecuadro != "") {
     estecuadro.innerHTML = "  o  <br/> ooo <br/>ooooo";
-}
-
-if (estecuadro == "a") {
-    estecuadro.style.color = "blue";
-} else if (estecuadro == "b") {
-    estecuadro.style.color = "red";
-} else if (estecuadro == "c") {
-    estecuadro.style.color = "green";
 }
